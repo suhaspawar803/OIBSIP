@@ -1,0 +1,58 @@
+/*Level 2 - Task 1 - Calculator
+Oasis Infobyte Web Development and Designing Internship
+Author - Suhas Pawar*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(6,68px);
+}
+
+input{
+    grid-column: span 6;
+    height: 70px;
+    width: 380px;
+    background-color: #B0C4DE;
+    border: none;
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button{
+    height: 25px;
+    width: 40px;
+    background-color: #808080;
+    
+    border-radius: 15px;
+    margin: 8px;
+    font-size: 16px;
+}
+
+.equal{
+    width: px;
+    border-radius: 15px;
+    
+}
